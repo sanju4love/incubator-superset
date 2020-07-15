@@ -19,7 +19,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # Superset metadata (slices, connections, tables, dashboards, ...).
 # Note that the connection information to connect to the datasources
 # you want to explore are managed directly in the web UI
-SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
+SQLALCHEMY_DATABASE_URI = os.environ['postgres://ddjlvvyrtzwpga:f1601129c10356e5551732ec653b5c33e0630ce42d5a3a8f674f74c1f01cc220@ec2-54-161-208-31.compute-1.amazonaws.com:5432/d5rd9karsicj4i']
 
 # Flask-WTF flag for CSRF
 WTF_CSRF_ENABLED = CSRF_ENABLED = True
